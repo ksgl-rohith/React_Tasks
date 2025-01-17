@@ -1,0 +1,29 @@
+/* Footer.css */
+footer {
+    background: linear-gradient(to right, #343a40, #212529); /* Gradient background */
+    color: #f8f9fa; /* Light text color */
+    padding: 20px 15px; /* Vertical and horizontal padding */
+    text-align: center; /* Center content */
+    font-family: Arial, Helvetica, sans-serif; /* Modern sans-serif font */
+    border-top: 1px solid #6c757d; /* Top border for separation */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  footer a {
+    color: #f8f9fa; /* Link color matches text */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add spacing between links */
+  }
+  
+  footer a:hover {
+    color: #17a2b8; /* Hover effect with teal color */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  @media (max-width: 576px) {
+    footer {
+      font-size: 14px; /* Smaller font size for mobile */
+      padding: 15px 10px; /* Adjust padding for small screens */
+    }
+  }
+  

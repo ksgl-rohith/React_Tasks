@@ -1,0 +1,15 @@
+nav{
+    background: linear-gradient(to right, #73a8dc, #212529);
+    padding: 20px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top:  solid #6c757d; /* Top border for separation */
+    box-shadow: 0  5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  
+}
+button{
+    background-color: #000000;
+    border-width: 1cqmax;
+}
+button:hover{
+    background-color: #000000;
+}
