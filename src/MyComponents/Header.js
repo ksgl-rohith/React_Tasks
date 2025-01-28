@@ -59,13 +59,11 @@ export default function Header(props) {
         </nav>
     );
 }
-
 // Default props for the Header component
 Header.defaultProps = {
     title: "Your Title Here", // Default title for the navbar
     searchBar: true // Show the search bar by default
 };
-
 // Prop types for validating the props passed to the Header component
 Header.propTypes = {
     title: PropTypes.string, // Title must be a string

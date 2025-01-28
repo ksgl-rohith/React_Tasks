@@ -9,16 +9,19 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
+
   footer a {
     color: #f8f9fa; /* Link color matches text */
     text-decoration: none; /* Remove underline */
     margin: 0 10px; /* Add spacing between links */
   }
   
+
   footer a:hover {
     color: #17a2b8; /* Hover effect with teal color */
     text-decoration: underline; /* Underline on hover */
   }
+  
   
   @media (max-width: 576px) {
     footer {
